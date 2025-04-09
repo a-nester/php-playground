@@ -38,3 +38,44 @@ if ($isHasTicket) {
 } else {
     echo ($money >= 100) ? "Buy a ticket" : "Sorry, not enough money.";
 }
+
+$a = 1;
+
+switch ($a) {
+    case 1:
+        echo "a = 1";
+        break;
+    case 2:
+        echo "a = 2";
+        break;
+    default:
+        'else';
+        break;
+}
+
+
+for ($i = 1; $i <= 10; $i++) {
+    echo "<br>Hello<br>" . $i;
+}
+
+$arr = [1, 2, 3, 4];
+
+for ($i = 0; $i < count($arr); $i++) {
+    echo $arr[$i] . "<br>";
+}
+
+$i = 1;
+while ($i <= 10) {
+    echo $i . "<br>";
+    $i++;
+}
+
+$arr = [
+    "q1" => "3",
+    "q2" => "4",
+    "q3" => "3"
+];
+
+foreach ($arr as $key => $value) {
+    echo $key . " has " . $value . "<br>";
+}

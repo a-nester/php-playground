@@ -89,8 +89,10 @@ touch index.php -->
     $arr = [10, 20, 30, 40];
 
     array_push($arr, 50);
-
+    echo count($arr);
+    echo "<br>";
     print_r($arr);
+    var_dump($arr);
 
     ?>
 
