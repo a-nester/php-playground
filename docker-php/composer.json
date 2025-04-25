@@ -1,0 +1,19 @@
+{
+    "name": "alex/php-playground",
+    "description": "PHP playground with php-cs-fixer",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.75"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alex\\PhpPlayground\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "a-nester",
+            "email": "a_nester@ukr.net"
+        }
+    ],
+    "require": {}
+}

@@ -1,0 +1,13 @@
+# IDE / Editor
+.vscode/
+.idea/
+
+# System
+.DS_Store
+
+# Logs
+*.log
+
+# PHP built-in server
+*.pid
+/vendor/
